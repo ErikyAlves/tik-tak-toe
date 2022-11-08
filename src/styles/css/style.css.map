@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/style.scss","../sass/global/global.scss","../sass/cores/colors.scss","../sass/root/root.scss"],"names":[],"mappings":"AACQ;ACDR;EACE;EACA;EACA;;;AAEF;EACE;EACA;;;AAEF;EACE;EACA;EACA;EACA,kBCNU;EDOV,OCTO;;;ACLT;EACE;EACA;EACA;EACA;EACA;EACA,kBDEU","file":"style.css"}

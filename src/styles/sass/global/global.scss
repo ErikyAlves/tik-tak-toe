@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: $primary-0;
+  color: $gray-5;
+}
