@@ -8,15 +8,20 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   width: 100vw;
   height: 100vh;
   background-color: #0d1f1a;
   color: #f5f5f5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 #root {
@@ -50,16 +55,11 @@ body {
   font-size: 9.6rem;
 }
 @media screen and (max-width: 70rem) {
-  #introduction h1 {
-    font-size: 7rem;
-  }
-}
-@media screen and (max-width: 26rem) {
   #introduction #introduction {
     gap: 4rem;
   }
-  #introduction #introduction h1 {
-    font-size: 5rem;
+  #introduction h1 {
+    font-size: 7rem;
   }
 }
 
@@ -72,26 +72,42 @@ body {
 }
 .chosen-players h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .chosen-players button {
-  place-self: center;
-  display: flex;
+  display: grid;
   justify-content: center;
-  max-width: 40rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 8rem;
   padding: 1rem 3.2rem;
   border-radius: 0.5rem;
   border: none;
   background-color: #0d8b68;
-  cursor: pointer;
   outline: none;
+  cursor: pointer;
   transition: 0.3s;
-}
-.chosen-players button img {
-  display: block;
 }
 .chosen-players button:hover, .chosen-players button:focus {
   background-color: #00e1a3;
+}
+.chosen-players #play {
+  max-width: max-content !important;
+  border-radius: 5rem;
+  background: linear-gradient(#00e1a3, #16614c);
+  box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 3.2rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  justify-self: center;
+  transition: 0.3s;
+}
+.chosen-players #play:hover {
+  background: #01c38d;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,12 +5,16 @@
 }
 html {
   font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
 }
 body {
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   width: 100vw;
   height: 100vh;
   background-color: $primary-0;
   color: $gray-5;
+}
+img {
+  display: block;
+  max-width: 100%;
 }

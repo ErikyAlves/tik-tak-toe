@@ -10,16 +10,11 @@
     font-size: 9.6rem;
   }
   @media screen and (max-width: 70rem) {
-    h1 {
-      font-size: 7rem;
-    }
-  }
-  @media screen and (max-width: 26rem) {
     #introduction {
       gap: 4rem;
-      h1 {
-        font-size: 5rem;
-      }
+    }
+    h1 {
+      font-size: 7rem;
     }
   }
 }
