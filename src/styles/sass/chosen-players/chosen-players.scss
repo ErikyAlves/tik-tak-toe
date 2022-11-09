@@ -1,47 +1,58 @@
 .chosen-players {
   display: grid;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  gap: 3rem;
+  max-width: 40rem;
+  margin: auto;
   h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3.2rem;
+    color: $primary-5;
+    font-family: "Rubik Iso";
   }
-  button {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 8rem;
-    padding: 1rem 3.2rem;
-    border-radius: 0.5rem;
-    border: none;
+  #player1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
     background-color: $primary-3;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
+    color: $primary-1;
     &:hover,
     &:focus {
-      background-color: $primary-5;
+      background-color: $primary-4;
+      color: primary-0;
+    }
+  }
+  #player2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: $primary-3;
+    color: $primary-1;
+    &:hover,
+    &:focus {
+      background-color: $primary-4;
+      color: primary-0;
     }
   }
   #play {
-    max-width: max-content !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    font-size: 1.6rem;
     border-radius: 5rem;
     background: linear-gradient($primary-5, $primary-2);
     box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
-    display: flex;
     gap: 1rem;
-    padding: 1rem 3.2rem;
-    justify-content: center;
-    align-items: center;
     font-weight: bold;
-    font-size: 1.6rem;
-    justify-self: center;
-    transition: 0.3s;
+    img {
+      transition: 0.3s;
+      rotate: -35deg;
+    }
     &:hover {
-      background: $primary-4;
+      background: linear-gradient($primary-5, $primary-2) !important;
+    }
+    &:hover img {
+      rotate: 0deg;
     }
   }
 }

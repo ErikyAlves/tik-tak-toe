@@ -1,17 +1,18 @@
 #root {
   display: grid;
+  gap: 4rem;
   max-width: 116rem;
-  margin: 0 auto;
+  margin: auto;
   padding: 4rem;
-  background-color: $primary-1;
-  @media screen and (max-width: 70rem) {
-    #root {
-      padding: 3rem;
-    }
+  background: $primary-1;
+}
+@media screen and (max-width: 80rem) {
+  #root {
+    padding: 3rem;
   }
-  @media screen and (max-width: 26rem) {
-    #root {
-      padding: 2rem;
-    }
+}
+@media screen and (max-width: 40rem) {
+  #root {
+    padding: 2rem;
   }
 }
