@@ -1,8 +1,12 @@
 // fonts
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik+Iso&display=swap");
-// Cores
+@import "./fonts/fonts.scss";
+// Colors
 @import "./cores/colors.scss";
 // Configuration Glonal
 @import "./global/global.scss";
 // Root
 @import "./root/root.scss";
+// introduction
+@import "./introduction/introduction.scss";
+// chosen-players
+@import "./chosen-players/chosen-players.scss";

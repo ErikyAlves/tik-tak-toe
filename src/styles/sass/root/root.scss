@@ -1,8 +1,17 @@
 #root {
   display: grid;
-  max-width: 114rem;
+  max-width: 116rem;
   margin: 0 auto;
-  text-align: center;
   padding: 4rem;
   background-color: $primary-1;
+  @media screen and (max-width: 70rem) {
+    #root {
+      padding: 3rem;
+    }
+  }
+  @media screen and (max-width: 26rem) {
+    #root {
+      padding: 2rem;
+    }
+  }
 }
