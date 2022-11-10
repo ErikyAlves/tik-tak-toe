@@ -1,0 +1,20 @@
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: $primary-4;
+  place-self: center;
+  gap: 0.2rem;
+  .game-aria {
+    width: 12rem;
+    height: 12rem;
+    background-color: $primary-1;
+    font-size: 8rem;
+    text-align: center;
+    color: $primary-5;
+    cursor: pointer;
+    transition: .5s;
+    &:hover {
+      background-color: $primary-2;
+    }
+  }
+}
